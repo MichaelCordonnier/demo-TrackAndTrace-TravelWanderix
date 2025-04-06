@@ -1,0 +1,46 @@
+name: 'travel-application-production'
+services:
+  mongodb:
+    image: mongo
+    restart: on-failure:5 # On error, try to restart for a maximum of 5 times
+    ports:
+      - 27027:27017
+    environment:
+      MONGO_INITDB_DATABASE: api
+    volumes:
+      - dbvolume3:/data/db
+
+  api:
+    build:
+      context: ../.
+      dockerfile: packages/api/Dockerfile
+      secrets:
+        - npmrc
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/run/secrets/my-google-secret
+    env_file:
+      - ./../packages/api/.env.production.local
+    secrets:
+      - my-google-secret
+    ports:
+      - 3000:3000
+    # command: tail -f /dev/null
+
+  pwa:
+    build:
+      context: ../.
+      dockerfile: packages/pwa/Dockerfile
+    ports:
+      - 8083:80
+
+  # pwa:
+
+volumes:
+  dbvolume3:
+
+secrets:
+  # dit moet aangepast worden naar de locatie van jouw service account key
+  my-google-secret:
+    file: /Users/michael/MCT Local/3de jaar/Advanced Full Stack Development/project-repo/2024-2025-groep-a/fullstack-travel-firebase-adminsdk-4ivi0-fea0d7592d.json
+  npmrc:
+    file: /Users/michael/MCT Local/3de jaar/Advanced Full Stack Development/project-repo/2024-2025-groep-a/.npmrc

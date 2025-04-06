@@ -1,0 +1,56 @@
+{
+  "name": "2024-2025-groep-a",
+  "version": "0.0.1",
+  "description": "App for travel planning",
+  "scripts": {
+    "dev": "lerna run dev --parallel --stream",
+    "dev:emulate": "npx lerna run --scope=@advanced-full-stack-development/{pwa,api} dev:emulate --stream",
+    "dev:emulate:windows": "npx lerna run --scope=@advanced-full-stack-development/{pwa,api} dev:emulate --stream test",
+    "test": "npm run dev:emulate && npx playwright test --ui",
+    "format": "lerna format --stream",
+    "lint": "lerna run lint --stream",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "Stef & MC",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": {
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "husky": "^9.1.6",
+    "lerna": "^8.1.8",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
+  },
+  "lint-staged": {
+    "packages/pwa/**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": [
+      "npm run -w @advanced-full-stack-development/pwa linter",
+      "npm run -w @advanced-full-stack-development/pwa format"
+    ],
+    "packages/pwa/**/*.md": [
+      "npm run -w @advanced-full-stack-development/pwa format"
+    ],
+    "packages/api/**/*.ts": [
+      "npm run -w @advanced-full-stack-development/api lint",
+      "npm run -w @advanced-full-stack-development/api format"
+    ]
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "mongodb-memory-server": "^10.1.2",
+    "nestjs-command": "^3.1.4"
+  }
+}

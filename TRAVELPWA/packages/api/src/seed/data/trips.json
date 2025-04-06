@@ -1,0 +1,1507 @@
+[
+  {
+    "name": "Trip to Paris",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1700063340685-819a487dcc5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://plus.unsplash.com/premium_photo-1666283181610-b95ee7e55465?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-64",
+    "description": "Experience the magic of Paris with a guided tour of its most famous landmarks.",
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 5,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 3,
+      "price": 1000
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "ForrestJump99",
+        "review": "Amazing trip! Everything was perfect.",
+        "createDate": "2023-10-01T10:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "HobbitHiker123",
+        "review": "Great experience, but the weather could have been better.",
+        "createDate": "2023-10-02T11:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Eiffel Tower",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.2945, 48.8584]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE Eiffel Tower Deluxe Tour"
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Louvre Museum",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.3364, 48.8606]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE Louvre Museum Private Tour"
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Montmartre",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.3431, 48.8867]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Versailles",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.1209, 48.8049]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      },
+      {
+        "day_number": 5,
+        "location": {
+          "name": "Seine River Cruise",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.3499, 48.8647]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE Seine River Cruise Relaxed"
+      },
+      {
+        "day_number": 6,
+        "location": {
+          "name": "Notre-Dame Cathedral",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.3499, 48.8534]
+          }
+        },
+        "recommendedActivity": ""
+      },
+      {
+        "day_number": 7,
+        "location": {
+          "name": "Champs-Élysées",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [2.3032, 48.8698]
+          }
+        },
+        "recommendedActivity": ""
+      }
+    ],
+    "slots": [
+      {
+        "startDate": "2024-12-01T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [
+          {
+            "username": "julius.caesar",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b456",
+            "email": "julius.caesar@romanempire.gov",
+            "ExtraPersons": [
+              {
+                "name": "Alice Smith",
+                "email": "alice.smith@example.com"
+              },
+              {
+                "name": "Bob Johnson",
+                "email": "bob.johnson@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              },
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          },
+          {
+            "username": "napoleon.bonaparte",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b457",
+            "email": "napoleon.bonaparte@franceimperial.fr",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          }
+        ],
+        "reports": []
+      },
+      {
+        "startDate": "2024-12-08T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [
+          {
+            "username": "alexander.great",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b458",
+            "email": "alexander.great@macedonkingdom.gr",
+            "ExtraPersons": [
+              {
+                "name": "Charlie Brown",
+                "email": "charlie.brown@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          },
+          {
+            "username": "cleopatra.vii",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b459",
+            "email": "cleopatra.vii@egyptdynasty.co",
+            "ExtraPersons": [
+              {
+                "name": "Diana Prince",
+                "email": "diana.prince@example.com"
+              },
+              {
+                "name": "Ethan Hunt",
+                "email": "ethan.hunt@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              }
+            ]
+          },
+          {
+            "username": "root",
+            "fireAuthId": "SXPP3snyN2f3ZOaT4KkTrhiFkg03",
+            "email": "root@root.com",
+            "ExtraPersons": [
+              {
+                "name": "Charlie Brown",
+                "email": "charlie.brown@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          }
+        ],
+        "reports": [
+          {
+            "title": "I dont think we have enough users for this trip",
+            "description": "I dont think we have enough users for this trip. Perhaps we should cancel it.",
+            "date": "2024-12-09T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "startDate": "2024-12-15T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "bookings": [
+          {
+            "username": "stefsje.bigboi",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45b",
+            "email": "stefsje.bigboi@random.be",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              },
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          }
+        ],
+        "reports": [
+          {
+            "title": "Its a festival in Paris",
+            "description": "Its a festival in Paris, so we had to change the itinerary a bit.",
+            "date": "2024-12-16T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "startDate": "2025-01-05T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-01-15T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-01-25T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-10T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-20T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-28T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": []
+      },
+      {
+        "startDate": "2025-01-01T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [
+          {
+            "username": "julius.caesar",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b456",
+            "email": "julius.caesar@romanempire.gov",
+            "ExtraPersons": [
+              {
+                "name": "Alice Smith",
+                "email": "alice.smith@example.com"
+              },
+              {
+                "name": "Bob Johnson",
+                "email": "bob.johnson@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              },
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          },
+          {
+            "username": "napoleon.bonaparte",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b457",
+            "email": "napoleon.bonaparte@franceimperial.fr",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          }
+        ],
+        "reports": [
+          {
+            "title": "One person didn't show up",
+            "description": "One person didn't show up for the tour on the first day. The rest of the group had a great time.",
+            "date": "2024-12-05T00:00:00.000Z"
+          },
+          {
+            "title": "Weather was bad",
+            "description": "The weather was bad on the second day, but the group still enjoyed the tour.",
+            "date": "2024-12-06T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "startDate": "2025-01-15T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [
+          {
+            "username": "alexander.great",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b458",
+            "email": "alexander.great@macedonkingdom.gr",
+            "ExtraPersons": [
+              {
+                "name": "Charlie Brown",
+                "email": "charlie.brown@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          },
+          {
+            "username": "cleopatra.vii",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b459",
+            "email": "cleopatra.vii@egyptdynasty.co",
+            "ExtraPersons": [
+              {
+                "name": "Diana Prince",
+                "email": "diana.prince@example.com"
+              },
+              {
+                "name": "Ethan Hunt",
+                "email": "ethan.hunt@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Eiffel Tower Deluxe Tour",
+                "Day": "1"
+              }
+            ]
+          },
+          {
+            "username": "root",
+            "fireAuthId": "SXPP3snyN2f3ZOaT4KkTrhiFkg03",
+            "email": "root@root.com",
+            "ExtraPersons": [
+              {
+                "name": "Charlie Brown",
+                "email": "charlie.brown@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Louvre Museum Private Tour",
+                "Day": "2"
+              },
+              {
+                "name": "Seine River Cruise Relaxed",
+                "Day": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adventure in the Swiss Alps",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1505675771566-1768feaedff8?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1619793825258-8fb42980caac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-64",
+    "description": "Embark on an adventure in the stunning Swiss Alps, with hiking, paragliding, and skiing activities.",
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 4,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 5,
+      "price": 1500
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "JurassicBark8",
+        "review": "Breathtaking views and incredible hikes!",
+        "createDate": "2023-11-02T12:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Zermatt",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [7.7491, 46.0207]
+          }
+        },
+        "recommendedActivity": "Zermatt Hiking Adventure"
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Interlaken",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [7.8694, 46.6863]
+          }
+        },
+        "recommendedActivity": "Interlaken Paragliding"
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Lucerne",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [8.2752, 47.0502]
+          }
+        },
+        "recommendedActivity": ""
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Grindelwald",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [8.0349, 46.6005]
+          }
+        },
+        "recommendedActivity": "Grindelwald Skiing"
+      },
+      {
+        "day_number": 5,
+        "location": {
+          "name": "Bern",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [7.4474, 46.9481]
+          }
+        },
+        "recommendedActivity": ""
+      },
+      {
+        "day_number": 6,
+        "location": {
+          "name": "Lausanne",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [6.6294, 46.5197]
+          }
+        },
+        "recommendedActivity": ""
+      }
+    ],
+    "slots": [
+      {
+        "startDate": "2024-12-03T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "panda.po",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45a",
+            "email": "panda.po@random.be",
+            "ExtraPersons": [
+              {
+                "name": "Frank Castle",
+                "email": "frank.castle@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Zermatt Hiking Adventure",
+                "Day": "1"
+              },
+              {
+                "name": "Interlaken Paragliding",
+                "Day": "2"
+              },
+              {
+                "name": "Grindelwald Skiing",
+                "Day": "4"
+              }
+            ]
+          },
+          {
+            "username": "genghis.khan",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45c",
+            "email": "genghis.khan@mongolhorde.asia",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Grindelwald Skiing",
+                "Day": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "startDate": "2024-12-10T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "cleopatra.vii",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b459",
+            "email": "cleopatra.vii@egyptdynasty.co",
+            "ExtraPersons": [
+              {
+                "name": "Grace Lee",
+                "email": "grace.lee@example.com"
+              },
+              {
+                "name": "Harry Potter",
+                "email": "harry.potter@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Zermatt Hiking Adventure",
+                "Day": "1"
+              },
+              {
+                "name": "Interlaken Paragliding",
+                "Day": "2"
+              },
+              {
+                "name": "Grindelwald Skiing",
+                "Day": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "startDate": "2024-12-17T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "abraham.lincoln",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45d",
+            "email": "abraham.lincoln@unionstates.us",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Zermatt Hiking Adventure",
+                "Day": "1"
+              },
+              {
+                "name": "Interlaken Paragliding",
+                "Day": "2"
+              },
+              {
+                "name": "Grindelwald Skiing",
+                "Day": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "startDate": "2025-01-03T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "panda.po",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45a",
+            "email": "panda.po@random.be",
+            "ExtraPersons": [
+              {
+                "name": "Frank Castle",
+                "email": "frank.castle@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Zermatt Hiking Adventure",
+                "Day": "1"
+              },
+              {
+                "name": "Interlaken Paragliding",
+                "Day": "2"
+              },
+              {
+                "name": "Grindelwald Skiing",
+                "Day": "4"
+              }
+            ]
+          },
+          {
+            "username": "genghis.khan",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45c",
+            "email": "genghis.khan@mongolhorde.asia",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Grindelwald Skiing",
+                "Day": "4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beach Vacation in Bali",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1559305289-4c31700ba9cb?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1571984405176-5958bd9ac31d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-64",
+    "description": "Relax on the beautiful beaches of Bali and explore its vibrant culture and stunning landscapes.",
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 10,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 2800
+    },
+    "reviews": [
+      {
+        "rating": 3,
+        "userId": "NeoAndChill",
+        "review": "The beach was beautiful, but the accommodations were lacking.",
+        "createDate": "2023-12-02T13:00:00Z"
+      },
+      {
+        "rating": 2,
+        "userId": "BuzzInSpace42",
+        "review": "Not what I expected; it was too crowded.",
+        "createDate": "2023-12-03T14:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "DarthToast7",
+        "review": "Great food and friendly locals made up for the crowd.",
+        "createDate": "2023-12-04T15:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Kuta Beach",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [115.1648, -8.7259]
+          }
+        },
+        "recommendedActivity": "Kuta Beach Surfing"
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Ubud",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [115.2627, -8.5069]
+          }
+        },
+        "recommendedActivity": "Ubud Jungle Trekking"
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Nusa Dua",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [115.2187, -8.7969]
+          }
+        },
+        "recommendedActivity": ""
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Seminyak",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [115.1585, -8.6823]
+          }
+        },
+        "recommendedActivity": ""
+      },
+      {
+        "day_number": 5,
+        "location": {
+          "name": "Gili Islands",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [116.0725, -8.3557]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE Gili Islands Snorkeling"
+      },
+      {
+        "day_number": 6,
+        "location": {
+          "name": "Tanah Lot",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [115.0875, -8.6311]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      },
+      {
+        "day_number": 7,
+        "location": {
+          "name": "Jimbaran",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [115.1684, -8.72]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      }
+    ],
+    "slots": [
+      {
+        "startDate": "2024-12-05T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "leonardo.vinci",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45e",
+            "email": "leonardo.vinci@renaissance.art",
+            "ExtraPersons": [
+              {
+                "name": "Ivy Adams",
+                "email": "ivy.adams@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Kuta Beach Surfing",
+                "Day": "1"
+              },
+              {
+                "name": "Ubud Jungle Trekking",
+                "Day": "2"
+              },
+              {
+                "name": "Gili Islands Snorkeling",
+                "Day": "5"
+              }
+            ]
+          },
+          {
+            "username": "joan.arc",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45f",
+            "email": "joan.arc@maidoffrance.fr",
+            "ExtraPersons": [
+              {
+                "name": "Jack Sparrow",
+                "email": "jack.sparrow@example.com"
+              },
+              {
+                "name": "Katherine Langford",
+                "email": "katherine.langford@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Gili Islands Snorkeling",
+                "Day": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "startDate": "2024-12-12T00:00:00.000Z",
+        "assignedGuideFireAuthID": "94rSRvh1tVMXewfVGLMeNx9rUzk2",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "leonardo.vinci",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45e",
+            "email": "leonardo.vinci@renaissance.art",
+            "ExtraPersons": [],
+            "booked_activities": [
+              {
+                "name": "Kuta Beach Surfing",
+                "Day": "1"
+              },
+              {
+                "name": "Ubud Jungle Trekking",
+                "Day": "2"
+              },
+              {
+                "name": "Gili Islands Snorkeling",
+                "Day": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "startDate": "2024-12-19T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "reports": [],
+        "bookings": [
+          {
+            "username": "joan.arc",
+            "fireAuthId": "60d5ec49f1d2c2a1d4e8b45f",
+            "email": "joan.arc@maidoffrance.fr",
+            "ExtraPersons": [
+              {
+                "name": "Liam Neeson",
+                "email": "liam.neeson@example.com"
+              },
+              {
+                "name": "Mia Wong",
+                "email": "mia.wong@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Kuta Beach Surfing",
+                "Day": "1"
+              },
+              {
+                "name": "Ubud Jungle Trekking",
+                "Day": "2"
+              },
+              {
+                "name": "Gili Islands Snorkeling",
+                "Day": "5"
+              }
+            ]
+          },
+          {
+            "username": "root",
+            "fireAuthId": "SXPP3snyN2f3ZOaT4KkTrhiFkg03",
+            "email": "root@root.com",
+            "ExtraPersons": [
+              {
+                "name": "Liam Neeson",
+                "email": "liam.neeson@example.com"
+              },
+              {
+                "name": "Mia Wong",
+                "email": "mia.wong@example.com"
+              }
+            ],
+            "booked_activities": [
+              {
+                "name": "Kuta Beach Surfing",
+                "Day": "1"
+              },
+              {
+                "name": "Ubud Jungle Trekking",
+                "Day": "2"
+              },
+              {
+                "name": "Gili Islands Snorkeling",
+                "Day": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "startDate": "2025-01-05T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-01-15T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-01-25T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-10T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-20T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-28T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      }
+    ]
+  },
+  {
+    "name": "Trip to United Arab Emirates",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1489516408517-0c0a15662682?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-32",
+    "description": "Explore the modern marvels of the United Arab Emirates, from the towering skyscrapers of Dubai to the cultural heritage of Abu Dhabi.",
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 10,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 4000
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "MarvelFanatic",
+        "review": "The beach was beautiful, but the accommodations were lacking.",
+        "createDate": "2023-12-02T13:00:00Z"
+      },
+      {
+        "rating": 5,
+        "userId": "NotTheTitanic",
+        "review": "Not what I expected; it was too crowded.",
+        "createDate": "2023-12-03T14:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "IceBurg",
+        "review": "Great food and friendly locals made up for the crowd.",
+        "createDate": "2023-12-04T15:00:00Z"
+      },
+      {
+        "rating": 5,
+        "userId": "AvadaKedavra",
+        "review": "Great food and friendly locals made up for the crowd.",
+        "createDate": "2023-12-04T15:00:00Z"
+      },
+      {
+        "rating": 5,
+        "userId": "JohnieLocal",
+        "review": "Great food and friendly locals made up for the crowd.",
+        "createDate": "2023-12-04T15:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Dubai",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [55.2708, 25.2048]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Abu Dhabi",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [54.3773, 24.4539]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Sharjah",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [55.3959, 25.3463]
+          }
+        },
+        "recommendedActivity": "DEPRECATED_NOT_IN_USE "
+      }
+    ],
+    "slots": [
+      {
+        "startDate": "2025-01-05T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-01-15T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-01-25T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-10T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-20T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      },
+      {
+        "startDate": "2025-02-28T00:00:00.000Z",
+        "assignedGuideFireAuthID": "qBwhiHLamwM8k80Rk1kAzH2qiSC3",
+        "bookings": [],
+        "reports": []
+      }
+    ]
+  },
+  {
+    "name": "Canada scenic tour",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1506104489822-562ca25152fe?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1497373637916-e47a55e22d0a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-32",
+    "description": "Discover the breathtaking landscapes and vibrant cities of Canada, from the iconic sights of Toronto to the majestic Rockies of Banff National Park.",
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 10,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 4500
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "JonathanV",
+        "review": "The Canadian Rockies were absolutely stunning!",
+        "createDate": "2023-12-05T13:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "DebbieM",
+        "review": "Montreal's culture and food were amazing, but the weather was chilly.",
+        "createDate": "2024-12-06T14:00:00Z"
+      },
+      {
+        "rating": 5,
+        "userId": "ChantalV",
+        "review": "Amazing, Amazing, Amazing!",
+        "createDate": "2023-12-06T14:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Toronto",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-79.3832, 43.6532]
+          }
+        },
+        "recommendedActivity": "Visit the CN Tower and explore the Distillery District."
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Niagara Falls",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-79.0849, 43.0896]
+          }
+        },
+        "recommendedActivity": "Take a boat tour to experience the falls up close."
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Ottawa",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-75.6972, 45.4215]
+          }
+        },
+        "recommendedActivity": "Explore Parliament Hill and the Rideau Canal."
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Montreal",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-73.5673, 45.5017]
+          }
+        },
+        "recommendedActivity": "Discover Old Montreal and enjoy local cuisine."
+      },
+      {
+        "day_number": 5,
+        "location": {
+          "name": "Quebec City",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-71.2082, 46.8139]
+          }
+        },
+        "recommendedActivity": "Walk through the historic Old Quebec district."
+      },
+      {
+        "day_number": 6,
+        "location": {
+          "name": "Banff National Park",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-115.5708, 51.1784]
+          }
+        },
+        "recommendedActivity": "Hike the scenic trails and enjoy views of Lake Louise."
+      },
+      {
+        "day_number": 7,
+        "location": {
+          "name": "Vancouver",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-123.1216, 49.2827]
+          }
+        },
+        "recommendedActivity": "Stroll through Stanley Park and visit Granville Island."
+      }
+    ],
+    "slots": [
+    ]
+  },
+  {
+    "name": "Adventure in Egypt and the Nile",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1539768942893-daf53e448371?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1600520611035-84157ad4084d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-32",
+    "description": "Embark on a journey through Egypt's rich history and breathtaking landmarks, from the Great Pyramids to the Nile River.",
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 10,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 3500
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "IronMan35",
+        "review": "The pyramids were awe-inspiring, and the guides were excellent!",
+        "createDate": "2023-12-07T13:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "HarryP0tur",
+        "review": "Loved the history, but the desert heat was intense.",
+        "createDate": "2023-12-08T14:00:00Z"
+      },
+      {
+        "rating": 2,
+        "userId": "Raccoon",
+        "review": "One of the resorts was pretty trash",
+        "createDate": "2023-12-08T14:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Cairo",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [31.2357, 30.0444]
+          }
+        },
+        "recommendedActivity": "Visit the Egyptian Museum and the bustling Khan El Khalili bazaar."
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Giza",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [31.1313, 29.9765]
+          }
+        },
+        "recommendedActivity": "Marvel at the Great Pyramids and the Sphinx."
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Luxor",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [32.6396, 25.6872]
+          }
+        },
+        "recommendedActivity": "Explore the Valley of the Kings and Karnak Temple."
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Aswan",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [32.8989, 24.0889]
+          }
+        },
+        "recommendedActivity": "Sail on the Nile and visit the Philae Temple."
+      }
+    ],
+    "slots": [
+    ]
+  },
+  {
+    "name": "Belgium Culinary Tour",
+    "bannerImageUrl": "https://plus.unsplash.com/premium_photo-1661886882389-e99d9a5299c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1461838239441-4475121c0b7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-32",
+    "description": "Immerse yourself in the charm of Belgium, from its historic cities to its delectable chocolates and beers.",
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 10,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 3000
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "PulpFictioneer34",
+        "review": "The architecture and food in Belgium were simply amazing!",
+        "createDate": "2023-12-09T13:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "Bourne2Win",
+        "review": "Bruges was beautiful, but Brussels was a bit crowded.",
+        "createDate": "2023-12-10T14:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "Brussels",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [4.3517, 50.8503]
+          }
+        },
+        "recommendedActivity": "Explore the Grand Place and taste Belgian waffles."
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Bruges",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [3.2247, 51.2093]
+          }
+        },
+        "recommendedActivity": "Visit the historic Markt square and enjoy a canal tour."
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Ghent",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [3.7217, 51.0543]
+          }
+        },
+        "recommendedActivity": "Admire Gravensteen Castle and stroll along the Graslei."
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Antwerp",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [4.4025, 51.2194]
+          }
+        },
+        "recommendedActivity": "Discover Antwerp’s Cathedral of Our Lady and the Diamond District."
+      }
+    ],
+    "slots": [
+    ]
+  },
+  {
+    "name": "American Highlights Tour",
+    "bannerImageUrl": "https://assets.simpleviewcms.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/lasvegas/RR_LVCVA_Strip_Caesars_Bellagio_Paris_SM_1__704abf3c-7d0a-4d56-ae67-3167dc7784b4.jpg",
+    "headerImageUrl": "https://nyc.eu/wp-content/uploads/2015/07/New_York_City-scaled.jpg",
+    "ageGroup": "18-32",
+    "description": "Discover the diverse landscapes and iconic cities of the United States on this 9-day journey through some of its most famous destinations.",
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 10,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 5000
+    },
+    "reviews": [
+      {
+        "rating": 5,
+        "userId": "ShrekSpectacular",
+        "review": "An unforgettable journey through America's highlights!",
+        "createDate": "2023-12-11T13:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "LouisTr",
+        "review": "Great trip, but could use more time in each city.",
+        "createDate": "2023-12-12T14:00:00Z"
+      },
+      {
+        "rating": 4,
+        "userId": "MJ-23",
+        "review": "Great trip, loved the Grand Canyon and San Francisco!",
+        "createDate": "2023-12-12T14:00:00Z"
+      }
+    ],
+    "itinerary": [
+      {
+        "day_number": 1,
+        "location": {
+          "name": "New York City, New York",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-74.006, 40.7128]
+          }
+        },
+        "recommendedActivity": "Visit Times Square, Central Park, and the Statue of Liberty."
+      },
+      {
+        "day_number": 2,
+        "location": {
+          "name": "Washington, D.C.",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-77.0369, 38.9072]
+          }
+        },
+        "recommendedActivity": "Explore the National Mall and Smithsonian Museums."
+      },
+      {
+        "day_number": 3,
+        "location": {
+          "name": "Chicago, Illinois",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-87.6298, 41.8781]
+          }
+        },
+        "recommendedActivity": "Admire the city skyline from Millennium Park and visit the Art Institute of Chicago."
+      },
+      {
+        "day_number": 4,
+        "location": {
+          "name": "Las Vegas, Nevada",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-115.1398, 36.1699]
+          }
+        },
+        "recommendedActivity": "Experience the vibrant nightlife and visit iconic casinos on the Las Vegas Strip."
+      },
+      {
+        "day_number": 5,
+        "location": {
+          "name": "Grand Canyon, Arizona",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-112.1401, 36.0544]
+          }
+        },
+        "recommendedActivity": "Take in breathtaking views of the Grand Canyon National Park."
+      },
+      {
+        "day_number": 6,
+        "location": {
+          "name": "Los Angeles, California",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-118.2437, 34.0522]
+          }
+        },
+        "recommendedActivity": "Walk along the Hollywood Walk of Fame and visit Santa Monica Beach."
+      },
+      {
+        "day_number": 7,
+        "location": {
+          "name": "San Francisco, California",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-122.4194, 37.7749]
+          }
+        },
+        "recommendedActivity": "Cross the Golden Gate Bridge and explore Alcatraz Island."
+      },
+      {
+        "day_number": 8,
+        "location": {
+          "name": "Seattle, Washington",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-122.3321, 47.6062]
+          }
+        },
+        "recommendedActivity": "Visit the Space Needle and Pike Place Market."
+      },
+      {
+        "day_number": 9,
+        "location": {
+          "name": "Miami, Florida",
+          "geopoint": {
+            "type": "Point",
+            "coordinates": [-80.1918, 25.7617]
+          }
+        },
+        "recommendedActivity": "Relax on South Beach and explore the Art Deco Historic District."
+      }
+    ],
+    "slots": [
+    ]
+  }
+]

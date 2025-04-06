@@ -1,0 +1,54 @@
+...
+21/10
+GIT BRANCH: trip>trips>bookableFlow
+- Places in bookable trip/activity werden niet bijgehouden in de database dit is nu opgelost
+
+- Bookingsettings is niet meer vereist in een bookable, deze komen nu uit de settings van de bookable
+
+- toevoeging bookableId in een booking enkel nodig bij verwijdering/update van een booking, puur backend purpose
+
+- Delete functionaliteit booking trip/activity toegevoegd
+
+- Admin functionaliteit geupdate, uitwerking flow trips > trip > bookable > booking
+
+24/10
+- Mogelijkheid om booking toe te voegen aan een trip dit in de admin panel op basis van een input modal. 
+
+- Detail page Booking Trip toegevoegd nog niet functioneel 
+
+- Bug bij het booken van acitivity werd de prijs niet toegevoegd aan de totale prijs van de booking. Dit is nu opgelost
+
+- Toevoegen status bookable (closed, open, full, expired)
+
+- Je kan nu bij een booking de mail opvragen van de user die de booking heeft gemaakt.
+
+- Reverse van een booking kan je nu indien gewenst een bookable krijgen en van een bookable een trip/activity
+
+- Talloze patches 
+
+25/10 
+
+- Recommend logica aangepast > nu recommend flag
+
+
+TODO 
+- Error handling try-catch toevoegen
+
+- Validation bij input fields toevoegen
+
+- Guard aan endpoints toevoegen
+
+- mailing service als je booking verwijderd wordt dit kan wel handig zijn als extra mss stef kan jij dit uitwerken? Bij de delete booking functie gajje eerst de user moeten ophalen a.h.v. booking.userId en dan de mail sturen naar de user omtrend die booking.
+
+- Admin panel modal input: frontend validation toevoegen
+
+- background service dat alle bookings checked en status veranderd naar expired indien nodig
+
+- Frontend admin recommended activity uitwerken, je recommend dit en toont een open slot indien er nog is anders vermeld je dat er geen openslots meer zijn voor die dag. 
+
+14/11: 
+    - update USER role naar guide, updaten van profile image & aanmaken van username zowel frontend, backend als seeding
+
+    - admin overzicht users, mogelijkheid om role aan te passen alsook bookings te zien
+
+    

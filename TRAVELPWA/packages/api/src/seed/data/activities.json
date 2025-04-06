@@ -1,0 +1,2199 @@
+[
+  {
+    "name": "Eiffel Tower Deluxe Tour",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1510427753020-b0caabc068c2?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1566902145833-0475c9f1a1bf?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-64",
+    "description": "A comprehensive tour of the iconic Eiffel Tower, including a visit to the summit with a guide and a champagne toast.",
+    "duration": 3,
+    "recommended": true,
+    "location": {
+      "name": "Eiffel Tower, Paris",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [2.2945, 48.8584]
+      }
+    },
+    "equipmentProvided": ["Entry tickets", "Audio guide"],
+    "safetyMeasures": [
+      "Follow the guide's instructions",
+      "Avoid leaning over railings"
+    ],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 5,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 3,
+      "price": 50
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Louvre Museum Private Tour",
+    "bannerImageUrl": "https://media.architecturaldigest.com/photos/5900cc370638dd3b70018b33/16:9/w_2560%2Cc_limit/Secrets%2520of%2520Louvre%25201.jpg",
+    "headerImageUrl": "https://i0.wp.com/stillinparis.com/wp-content/uploads/2022/02/louvre-museum-visit-guide.jpg?fit=1500%2C1000&ssl=1",
+    "ageGroup": "18-64",
+    "description": "A guided tour of the world-famous Louvre Museum, including priority access to its masterpieces.",
+    "recommended": false,
+    "duration": 4,
+    "location": {
+      "name": "Louvre Museum, Paris",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [2.3364, 48.8606]
+      }
+    },
+    "equipmentProvided": ["Entry tickets", "Museum map"],
+    "safetyMeasures": ["Follow the guide", "Do not touch exhibits"],
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 5,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 2,
+      "price": 80
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Seine River Cruise Relaxed",
+    "bannerImageUrl": "https://blog.avalonwaterways.com/wp-content/uploads/2017/03/seine-river-985613_1920.jpg",
+    "headerImageUrl": "https://www.cruiseontheseine.com/wp-content/uploads/2023/02/seine-river-history.jpg",
+    "ageGroup": "18-64",
+    "description": "A relaxing evening cruise along the Seine River, offering stunning views of Paris's landmarks.",
+    "duration": 2,
+    "recommended": false,
+    "location": {
+      "name": "Seine River, Paris",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [2.3508, 48.8566]
+      }
+    },
+    "equipmentProvided": ["Cruise tickets"],
+    "safetyMeasures": ["Wear a life jacket", "Stay seated during the cruise"],
+    "bookingSettings": {
+      "max_participants": 25,
+      "min_participants": 5,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 40
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Zermatt Hiking Adventure",
+    "bannerImageUrl": "https://www.join-veronica.com/wp-content/uploads/2024/07/20230807-IMG_20230807_140817.jpg",
+    "headerImageUrl": "https://www.join-veronica.com/wp-content/uploads/2024/07/20230807-IMG_20230807_140817.jpg",
+    "ageGroup": "18-64",
+    "description": "A guided hike in Zermatt, taking in the breathtaking views of the Matterhorn.",
+    "recommended": true,
+    "duration": 5,
+    "location": {
+      "name": "Zermatt, Switzerland",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [7.7491, 46.0207]
+      }
+    },
+    "equipmentProvided": ["Hiking poles", "Backpack"],
+    "safetyMeasures": ["Wear sturdy shoes", "Bring water"],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 5,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 3,
+      "price": 100
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Interlaken Paragliding",
+    "bannerImageUrl": "https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://www.myswitzerland.com/-/media/celum%20connect/2022/06/08/11/10/31/interlaken-shipping-port.jpg",
+    "headerImageUrl": "https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://www.myswitzerland.com/-/media/celum%20connect/2022/06/08/11/10/31/interlaken-shipping-port.jpg",
+    "ageGroup": "18-64",
+    "recommended": false,
+    "description": "An exhilarating paragliding experience over the stunning landscapes of Interlaken.",
+    "duration": 2,
+    "location": {
+      "name": "Interlaken, Switzerland",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [7.8632, 46.6863]
+      }
+    },
+    "equipmentProvided": ["Paragliding gear", "Helmet"],
+    "safetyMeasures": ["Follow the instructor", "Wear a helmet"],
+    "bookingSettings": {
+      "max_participants": 10,
+      "min_participants": 3,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 2,
+      "price": 150
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Grindelwald Skiing",
+    "bannerImageUrl": "https://images.interhome.group/travelguide/switzerland-grindelwald-summer.jpg",
+    "headerImageUrl": "https://images.interhome.group/travelguide/switzerland-grindelwald-summer.jpg",
+    "ageGroup": "18-64",
+    "recommended": true,
+    "description": "A full day of skiing in Grindelwald, suitable for all skill levels.",
+    "duration": 6,
+    "location": {
+      "name": "Grindelwald, Switzerland",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [8.0332, 46.6208]
+      }
+    },
+    "equipmentProvided": ["Ski gear", "Helmet"],
+    "safetyMeasures": ["Wear a helmet", "Follow the instructor"],
+    "bookingSettings": {
+      "max_participants": 12,
+      "min_participants": 4,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 120
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Kuta Beach Surfing",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "18-64",
+    "description": "A surfing lesson on the popular Kuta Beach, perfect for beginners and intermediate surfers.",
+    "recommended": false,
+    "duration": 3,
+    "location": {
+      "name": "Kuta Beach, Bali",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.1695, -8.7159]
+      }
+    },
+    "equipmentProvided": ["Surfboard", "Wetsuit"],
+    "safetyMeasures": ["Wear a wetsuit", "Follow the instructor"],
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 5,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 50
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-05 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Ubud Jungle Trekking",
+    "bannerImageUrl": "https://www.stylishtraveltips.com/wp-content/uploads/2017/02/idonesien-1009670_1280.jpg",
+    "headerImageUrl": "https://www.stylishtraveltips.com/wp-content/uploads/2017/02/idonesien-1009670_1280.jpg",
+    "ageGroup": "18-64",
+    "description": "A guided trek through the lush jungles of Ubud, exploring hidden temples and waterfalls.",
+    "recommended": true,
+    "duration": 4,
+    "location": {
+      "name": "Ubud, Bali",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.262, -8.5069]
+      }
+    },
+    "equipmentProvided": ["Trekking poles", "Backpack"],
+    "safetyMeasures": ["Wear comfortable shoes", "Bring water"],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 5,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 60
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-06 09:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Gili Islands Snorkeling",
+    "bannerImageUrl": "https://lp-cms-production.imgix.net/2019-06/GettyImages-154246242_high.jpg",
+    "headerImageUrl": "https://lp-cms-production.imgix.net/2019-06/GettyImages-154246242_high.jpg",
+    "ageGroup": "18-64",
+    "recommended": false,
+    "description": "A snorkeling trip to the crystal-clear waters of the Gili Islands, perfect for spotting marine life.",
+    "duration": 3,
+    "location": {
+      "name": "Gili Islands, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [116.073, -8.35]
+      }
+    },
+    "equipmentProvided": ["Snorkeling gear", "Life jacket"],
+    "safetyMeasures": ["Wear a life jacket", "Follow the guide"],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 5,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 70
+    },
+    "slots": [
+      {
+        "startDate": "2024-12-02 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-03 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-04 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-05 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-06 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-07 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-08 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-09 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-10 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-11 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-12 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-13 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-14 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-15 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-16 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-17 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-18 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-19 13:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-20 18:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2024-12-21 08:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-03 14:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-9 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 12:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-19 20:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-22 06:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-25 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-28 08:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-30 19:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-31 21:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-02 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-05 13:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-08 17:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-12 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-16 20:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-19 14:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-22 07:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-25 18:45:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-27 16:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-02-29 23:15:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Dolphin swimming",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1636614483848-6d829c1a1cd7?q=80&w=2135&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1636614483848-6d829c1a1cd7?q=80&w=2135&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "12-60",
+    "recommended": true,
+    "description": "Get to know the dolphins in their natural habitat and swim with them at Kuta Beach.",
+    "duration": 2,
+    "location": {
+      "name": "Kuta Beach, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.165, -8.717]
+      }
+    },
+    "equipmentProvided": ["Surfboard", "Safety leash"],
+    "safetyMeasures": [
+      "Stay within designated areas",
+      "Follow the instructor's guidelines"
+    ],
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 2,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 45
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-05 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-05 15:30:00",
+        "recommend": false
+      },
+      {
+        "startDate": "2025-01-09 14:00:00",
+        "recommend": false
+      },
+      {
+        "startDate": "2025-01-09 16:00:00",
+        "recommend": false
+      },
+      {
+        "startDate": "2025-01-12 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-12 18:00:00",
+        "recommend": false
+      },
+      {
+        "startDate": "2025-01-14 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 18:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Beach Yoga at Sunset",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1571103189706-cd54b23e81f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1571103189706-cd54b23e81f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "15-65",
+    "recommended": true,
+    "description": "Join a rejuvenating yoga session by the shore during sunset, guided by expert instructors.",
+    "duration": 2,
+    "location": {
+      "name": "Kuta Beach, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.167, -8.719]
+      }
+    },
+    "equipmentProvided": ["Yoga mat", "Towels"],
+    "safetyMeasures": ["Hydrate well", "Inform the instructor of any injuries"],
+    "bookingSettings": {
+      "max_participants": 25,
+      "min_participants": 1,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 20
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-05 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-05 15:30:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Ubud Rice Terrace Trekking",
+    "bannerImageUrl": "https://images.unsplash.com/photo-1544736825-05acf0d96762?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "headerImageUrl": "https://images.unsplash.com/photo-1544736825-05acf0d96762?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ageGroup": "10-65",
+    "recommended": true,
+    "description": "Explore the lush greenery and scenic beauty of Ubud's famous rice terraces on this guided trekking tour.",
+    "duration": 2,
+    "location": {
+      "name": "Tegallalang Rice Terrace, Ubud, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.279, -8.423]
+      }
+    },
+    "equipmentProvided": ["Walking stick", "Reusable water bottle"],
+    "safetyMeasures": ["Wear comfortable shoes", "Follow the guide"],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 2,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 30
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-06 09:00:00",
+        "recommend": false
+      },
+      {
+        "startDate": "2025-01-06 11:00:00",
+        "recommend": true
+      }
+    ]
+  },
+  {
+    "name": "Traditional Balinese Cooking Class",
+    "bannerImageUrl": "https://finnsbeachclub.com/wp-content/uploads/2023/07/10-must-try-balinese-foods-and-local-delights-by-finns-bali.jpg",
+    "headerImageUrl": "https://finnsbeachclub.com/wp-content/uploads/2023/07/10-must-try-balinese-foods-and-local-delights-by-finns-bali.jpg",
+    "ageGroup": "12-60",
+    "recommended": true,
+    "description": "Learn to prepare authentic Balinese dishes using fresh local ingredients in a traditional kitchen setting.",
+    "duration": 3,
+    "location": {
+      "name": "Ubud Village, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.282, -8.423]
+      }
+    },
+    "equipmentProvided": ["Cooking utensils", "Recipe book"],
+    "safetyMeasures": [
+      "Follow the chef's instructions",
+      "Handle knives and hot surfaces carefully"
+    ],
+    "bookingSettings": {
+      "max_participants": 12,
+      "min_participants": 2,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 50
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-06 09:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-06 13:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Nusa Dua Glass-Bottom Boat Tour",
+    "bannerImageUrl": "https://i0.wp.com/visitbalitour.com/wp-content/uploads/2022/09/bali-turtle-conservation-.jpg?fit=674%2C446&ssl=1",
+    "headerImageUrl": "https://i0.wp.com/visitbalitour.com/wp-content/uploads/2022/09/bali-turtle-conservation-.jpg?fit=674%2C446&ssl=1",
+    "ageGroup": "5-70",
+    "recommended": true,
+    "description": "Enjoy a relaxing glass-bottom boat ride to explore the vibrant underwater world of Nusa Dua without getting wet.",
+    "duration": 3,
+    "location": {
+      "name": "Nusa Dua Beach, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.223, -8.805]
+      }
+    },
+    "equipmentProvided": ["Life jackets"],
+    "safetyMeasures": ["Wear a life jacket", "Stay seated during the ride"],
+    "bookingSettings": {
+      "max_participants": 10,
+      "min_participants": 2,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 35
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-07 08:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 17:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Jet Ski Adventure in Nusa Dua",
+    "bannerImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/8b/b4/26/caption.jpg?w=500&h=400&s=1",
+    "headerImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/8b/b4/26/caption.jpg?w=500&h=400&s=1",
+    "ageGroup": "15-50",
+    "recommended": true,
+    "description": "Feel the thrill of speed and adventure as you navigate the clear waters of Nusa Dua on a jet ski.",
+    "duration": 0.5,
+    "location": {
+      "name": "Nusa Dua Beach, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.226, -8.807]
+      }
+    },
+    "equipmentProvided": ["Jet ski", "Life jackets"],
+    "safetyMeasures": ["Wear a life jacket", "Follow the guide’s instructions"],
+    "bookingSettings": {
+      "max_participants": 5,
+      "min_participants": 1,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 60
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-07 08:30:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-07 17:00:00",
+        "recommend": false
+      },
+      {
+        "startDate": "2025-01-14 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-14 18:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Sunset Surfing Lessons in Seminyak",
+    "bannerImageUrl": "https://iso.500px.com/wp-content/uploads/2015/01/remagic_cover.jpeg",
+    "headerImageUrl": "https://iso.500px.com/wp-content/uploads/2015/01/remagic_cover.jpeg",
+    "ageGroup": "12-60",
+    "recommended": true,
+    "description": "Learn to surf in the iconic waves of Seminyak, with professional instructors guiding you every step of the way.",
+    "duration": 2,
+    "location": {
+      "name": "Seminyak Beach, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.1585, -8.6823]
+      }
+    },
+    "equipmentProvided": ["Surfboard", "Rash guards"],
+    "safetyMeasures": ["Wear a leash", "Follow the instructor's guidance"],
+    "bookingSettings": {
+      "max_participants": 10,
+      "min_participants": 1,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 50
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-08 15:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-08 18:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Balanise Cooking Class Seminyak",
+    "bannerImageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/2c/af/91.jpg",
+    "headerImageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/2c/af/91.jpg",
+    "ageGroup": "10-65",
+    "recommended": true,
+    "description": "Immerse yourself in Balinese culture by learning to cook authentic dishes using fresh local ingredients.",
+    "duration": 3,
+    "location": {
+      "name": "Seminyak Cooking Studio, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.1585, -8.6823]
+      }
+    },
+    "equipmentProvided": ["Apron", "Cooking utensils"],
+    "safetyMeasures": ["Use safety gloves for cutting", "Follow hygiene instructions"],
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 2,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 75
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-08 10:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-08 14:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Turtle Watching and Snorkeling Adventure",
+    "bannerImageUrl": "https://madmonkeyhostels.com/wp-content/uploads/2019/04/Mad-Monkey-Hostels-Gili-Trawangan-Snorkeling-with-Sea-Turtles-Guide.jpg",
+    "headerImageUrl": "https://madmonkeyhostels.com/wp-content/uploads/2019/04/Mad-Monkey-Hostels-Gili-Trawangan-Snorkeling-with-Sea-Turtles-Guide.jpg",
+    "ageGroup": "10-60",
+    "recommended": true,
+    "description": "Snorkel alongside sea turtles in the crystal-clear waters of the Gili Islands, guided by local experts.",
+    "duration": 2,
+    "location": {
+      "name": "Gili Trawangan, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [116.036, -8.35]
+      }
+    },
+    "equipmentProvided": ["Snorkeling gear", "Life jackets"],
+    "safetyMeasures": ["Stay close to the guide", "Avoid touching marine life"],
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 4,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 50
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-09 09:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-09 14:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Glass Kayaking on Gili Meno Lagoon",
+    "bannerImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6a/12/68/see-through-kayaks-gili.jpg?w=1200&h=900&s=1",
+    "headerImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6a/12/68/see-through-kayaks-gili.jpg?w=1200&h=900&s=1",
+    "ageGroup": "12-65",
+    "recommended": true,
+    "description": "Paddle through the serene waters of Gili Meno in a transparent kayak for a unique underwater view.",
+    "duration": 2,
+    "location": {
+      "name": "Gili Meno, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [116.061, -8.35]
+      }
+    },
+    "equipmentProvided": ["Glass kayak", "Paddle", "Life jackets"],
+    "safetyMeasures": ["Wear a life jacket", "Stay within designated areas"],
+    "bookingSettings": {
+      "max_participants": 10,
+      "min_participants": 1,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 40
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-09 09:15:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-09 14:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Sunset Tour at Tanah Lot Temple",
+    "bannerImageUrl": "https://theworldtravelguy.com/wp-content/uploads/2020/11/DJI_0943_1200.jpg",
+    "headerImageUrl": "https://theworldtravelguy.com/wp-content/uploads/2020/11/DJI_0943_1200.jpg",
+    "ageGroup": "8-70",
+    "recommended": true,
+    "description": "Witness the breathtaking sunset at Tanah Lot Temple, one of Bali's iconic sea temples, perched on a rock formation.",
+    "duration": 2,
+    "location": {
+      "name": "Tanah Lot, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.086, -8.621]
+      }
+    },
+    "equipmentProvided": ["Guided tour equipment"],
+    "safetyMeasures": ["Stay within designated areas", "Follow the guide"],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 2,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 25
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-10 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Balinese Cultural Workshop at Tanah Lot",
+    "bannerImageUrl": "https://www.armabali.com/wp-content/uploads/2023/08/cultural-workshops-balinese-dance.jpg",
+    "headerImageUrl": "https://www.armabali.com/wp-content/uploads/2023/08/cultural-workshops-balinese-dance.jpg",
+    "ageGroup": "10-65",
+    "recommended": true,
+    "description": "Immerse yourself in Balinese culture by participating in traditional art and craft workshops near Tanah Lot.",
+    "duration": 3,
+    "location": {
+      "name": "Tanah Lot, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.087, -8.622]
+      }
+    },
+    "equipmentProvided": ["Art supplies", "Guides and materials"],
+    "safetyMeasures": ["Use tools carefully", "Listen to instructor guidance"],
+    "bookingSettings": {
+      "max_participants": 15,
+      "min_participants": 3,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 35
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-10 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-10 18:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Jimbaran Bay Seafood Dinner",
+    "bannerImageUrl": "https://powertraveller.com/wp-content/uploads/2024/11/bali-2-hours-private-trip-sunset-dinner-jimbaran-seafood.jpg",
+    "headerImageUrl": "https://powertraveller.com/wp-content/uploads/2024/11/bali-2-hours-private-trip-sunset-dinner-jimbaran-seafood.jpg",
+    "ageGroup": "10-70",
+    "recommended": true,
+    "description": "Enjoy a romantic seafood dinner by the beach at Jimbaran Bay, famous for its fresh seafood and stunning sunset views.",
+    "duration": 2,
+    "location": {
+      "name": "Jimbaran Bay, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.165, -8.795]
+      }
+    },
+    "equipmentProvided": ["Dining table on the beach", "Seafood platter"],
+    "safetyMeasures": [
+      "Stay within the designated dining area",
+      "Watch your step on the beach"
+    ],
+    "bookingSettings": {
+      "max_participants": 30,
+      "min_participants": 2,
+      "auto_cancel": false,
+      "auto_cancel_days_before": 0,
+      "price": 45
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-11 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-11 18:00:00",
+        "recommend": false
+      }
+    ]
+  },
+  {
+    "name": "Sunset Yoga at Jimbaran Beach",
+    "bannerImageUrl": "https://media.istockphoto.com/id/485387392/photo/warrior-pose-from-yoga.jpg?s=612x612&w=0&k=20&c=yT63TZJUszxn4a53_lofoV_lJSdKEeyIkDPhviCrnfc=",
+    "headerImageUrl": "https://media.istockphoto.com/id/485387392/photo/warrior-pose-from-yoga.jpg?s=612x612&w=0&k=20&c=yT63TZJUszxn4a53_lofoV_lJSdKEeyIkDPhviCrnfc=",
+    "ageGroup": "15-65",
+    "recommended": true,
+    "description": "Relax and rejuvenate with a peaceful yoga session on the beach at sunset, guided by an experienced instructor.",
+    "duration": 2,
+    "location": {
+      "name": "Jimbaran Beach, Bali, Indonesia",
+      "geopoint": {
+        "type": "Point",
+        "coordinates": [115.167, -8.797]
+      }
+    },
+    "equipmentProvided": ["Yoga mat", "Towels"],
+    "safetyMeasures": ["Hydrate well", "Inform the instructor of any injuries"],
+    "bookingSettings": {
+      "max_participants": 20,
+      "min_participants": 1,
+      "auto_cancel": true,
+      "auto_cancel_days_before": 1,
+      "price": 20
+    },
+    "slots": [
+      {
+        "startDate": "2025-01-11 12:00:00",
+        "recommend": true
+      },
+      {
+        "startDate": "2025-01-11 18:00:00",
+        "recommend": false
+      }
+    ]
+  }
+]

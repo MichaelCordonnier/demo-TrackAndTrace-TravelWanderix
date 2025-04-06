@@ -1,0 +1,59 @@
+{
+  "name": "@advanced-full-stack-development/pwa",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:emulate": "VITE_EMULATOR=true npm run dev | npx firebase emulators:start --only auth",
+    "dev:emulate:windows": "VITE_EMULATOR=true npm run dev | npx firebase emulators:start --only auth",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "linter": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "run:pwa": "npm run build && npx serve dist"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "@vue/apollo-composable": "^4.2.1",
+    "@vue/apollo-util": "^4.0.0-beta.6",
+    "@vueuse/core": "^11.1.0",
+    "firebase": "^10.13.2",
+    "graphql-ws": "^5.16.0",
+    "lucide-vue-next": "^0.453.0",
+    "mapbox-gl": "^3.7.0",
+    "socket.io-client": "^4.8.1",
+    "use-draggable-scroll": "^0.1.0",
+    "vue": "^3.4.29",
+    "vue-cookies": "^1.8.4",
+    "vue-dragscroll": "^4.0.6",
+    "vue-i18n": "^10.0.4",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "npm-run-all2": "^6.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "~5.4.0",
+    "unocss": "^0.62.4",
+    "vite": "^5.3.1",
+    "vite-plugin-pwa": "^0.20.5",
+    "vue-tsc": "2.0.21"
+  },
+  "optionalDependencies": {
+    
+    "@rollup/rollup-linux-arm64-gnu": "*",
+    "@esbuild/linux-arm64": "*",
+    "@css-inline/css-inline-linux-arm64-musl": "*"
+  }
+}
