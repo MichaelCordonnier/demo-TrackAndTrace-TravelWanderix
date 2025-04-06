@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+option csharp_namespace = "TrackAndTraceGrpc";
+
+service PackageProto {
+    rpc AddPackage (PackageRequest) returns (PackageReply); 
+    rpc UpdatePackage (UpdatePackageRequest) returns (PackageReply);
+}
+
+message PackageRequest {
+    string destinationStreet = 1;
+    string destinationCountry = 2;
+    string destinationNumber = 3;
+    string destinationRegionCode = 4;
+    string originAddress = 5;
+    GrpcGeoLocation currentLocation = 6;
+    Status status = 7;
+    string date = 8; // Use string for date to ensure compatibility
+    GrpcGeoLocation destinationLocation = 9;
+    GrpcGeoLocation originLocation = 10;
+
+}
+
+message PackageReply {
+    string id = 1;
+    string destinationStreet = 2;
+    string destinationCountry = 3;
+    string destinationNumber = 4;
+    string destinationRegionCode = 5;
+    string originAddress = 6;
+    Status status = 7;
+    string date = 8; // Use string for date to ensure compatibility
+    GrpcGeoLocation currentLocation = 9;
+    GrpcGeoLocation destinationLocation = 10;
+    repeated Stage trackingHistory = 11;
+    GrpcGeoLocation originLocation = 12;
+
+}
+
+message SortPackageRequest {
+    repeated string packageId = 1;
+}
+
+message UpdatePackageRequest {
+    string id = 1;
+    Status status = 2;
+    GrpcGeoLocation currentLocation = 3;
+}
+
+message PackageListReply {
+    repeated PackageReply packages = 1;
+}
+
+message GrpcGeoLocation {
+    double latitude = 1;
+    double longitude = 2;
+}
+
+message Stage {
+    string date = 1;
+    Status status = 2;
+    GrpcGeoLocation geoLocation = 3;
+}
+
+enum Status {
+    Pending = 0;
+    Pickup = 1;
+    Sorting = 2;
+    Sorted = 3;
+    InTransit = 4;
+    Delivered = 5;
+}

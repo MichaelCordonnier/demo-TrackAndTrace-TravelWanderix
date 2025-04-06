@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+option csharp_namespace = "TrackAndTraceGrpc";
+
+service DriverProto {
+  rpc AddDriver (DriverRequest) returns (DriverReply);
+  rpc GetDriver (DriverIdRequest) returns (DriverReply);
+  rpc GetDrivers (Empty) returns (DriverListReply);
+  rpc UpdateDriver (DriverUpdateRequest) returns (DriverReply);
+}
+
+message DriverRequest {
+  string name = 1;
+  string phoneNumber = 2;
+  string email = 3;
+  WorkerStatus status = 4;
+}
+
+message DriverUpdateRequest {
+  string id = 1;
+  WorkerStatus status = 2;
+}
+
+message DriverReply {
+  string id = 1;
+  string name = 2;
+  string phoneNumber = 3;
+  string email = 4;
+  WorkerStatus status = 5;
+}
+
+message DriverIdRequest {
+  string id = 1;
+}
+
+message Empty {}
+
+message DriverListReply {
+  repeated DriverReply drivers = 1;
+}
+
+enum WorkerStatus {
+  Driving = 0;
+  Resting = 1;
+  OffDuty = 2;
+}

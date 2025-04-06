@@ -1,0 +1,80 @@
+services:
+  mongodb:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    ports:
+      - "27020:27017"
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD-SHELL", "echo 'db.runCommand(\"ping\").ok' | mongosh localhost:27017/test --quiet"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  rabbitmq:
+    build:
+      context: ./RabbitMQ
+      dockerfile: Dockerfile
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    env_file:
+      - ./RabbitMQ/.env
+    healthcheck:
+      test: ["CMD-SHELL", "rabbitmq-diagnostics -q ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+      - "5003:5003"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    env_file:
+      - ./api/.env
+    depends_on:
+      - mongodb
+      - rabbitmq
+
+  
+  locust:
+    build:
+      context: ./test
+      dockerfile: Dockerfile
+    ports:
+      - "8089:8089"
+    env_file:
+      - ./test/.env
+    depends_on:
+      - api
+
+  dashboard:
+      build:
+        context: ./dashboard
+        dockerfile: Dockerfile
+        args:
+          VITE_HTTP_URL_BACKEND: ${VITE_HTTP_URL_BACKEND}
+          VITE_WS_URL_BACKEND: ${VITE_WS_URL_BACKEND}
+          VITE_MAPBOX_ACCESS_TOKEN: ${VITE_MAPBOX_ACCESS_TOKEN}
+      ports:
+        - "5173:80"
+      env_file:
+        - ./dashboard/.env
+      depends_on:
+        - api
+
+
+volumes:
+  mongodb_data:

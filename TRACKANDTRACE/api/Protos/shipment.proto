@@ -1,0 +1,97 @@
+syntax = "proto3";
+
+option csharp_namespace = "TrackAndTraceGrpc";
+
+import "package.proto";
+import "driver.proto";
+
+service ShipmentProto {
+    rpc GetShipment(ShipmentIdRequest) returns (ShipmentReply);
+    rpc GetShipments(Empty) returns (ShipmentListReply);
+    rpc UpdateShipment(UpdateShipmentRequest) returns (ShipmentReply);
+    rpc GetShipmentsByDriverId(GetShipmentsByDriverIdRequest) returns (ShipmentListReply);
+}
+
+message ShipmentIdRequest {
+    string shipmentId = 1;
+}
+
+message GetShipmentsByDriverIdRequest {
+    string driverId = 1;
+}
+
+message ShipmentReply {
+    string shipmentId = 1;
+    string driverId = 2;
+    Status status = 3;
+    Type type = 4;
+    string date = 5;
+    repeated GeoLocationWithDate routeHistory = 6;
+    GrpcGeoLocation currentLocation = 7;
+    repeated Package packages = 8;
+    repeated Package packagesToDropOff = 9;
+}
+
+// message Empty {}
+
+message ShipmentListReply {
+    repeated ShipmentReply shipments = 1;
+}
+
+
+
+message UpdateShipmentRequest {
+    string shipmentId = 1;
+    Status newStatus = 2;
+    GrpcGeoLocation currentLocation = 3;
+}
+
+// message DriverIdRequest {
+//     string driverId = 1;
+// }
+
+// message GeoLocation {
+//     double latitude = 1;
+//     double longitude = 2;
+// }
+
+message GeoLocationWithDate {
+    double latitude = 1;
+    double longitude = 2;
+    string date = 3;
+}
+
+message Package{
+    string id = 1;
+    string destinationStreet = 2;
+    string destinationCountry = 3;
+    string destinationNumber = 4;
+    string destinationRegionCode = 5;
+    string originAddress = 6;
+    Status status = 7;
+    string date = 8;
+    GrpcGeoLocation currentLocation = 9;
+    GrpcGeoLocation destinationLocation = 10;
+    GrpcGeoLocation originLocation = 11;
+}
+
+// message Stage {
+//     string date = 1;
+//     Status status = 2;
+//     GrpcGeoLocation geoLocation = 3;
+// }
+
+enum Type{
+    TPickup = 0;
+    TDelivery = 1;
+}
+
+
+// enum Status {
+//     Pending = 0;
+//     Pickup = 1;
+//     Sorting = 2;
+//     Sorted = 3;
+//     InTransit = 4;
+//     Delivered = 5;
+// }
